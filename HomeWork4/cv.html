@@ -26,7 +26,7 @@ $workexp = [
 	[
         'name' => 'Разработчик',
         'start' => 'Январь 2015 -',
-        'end' => 'сейчас</span>',
+        'end' => 'Январь 2023',
         'discription' => 'Играл с кнопками на клавиатуре, написал простую программу, форматирующую диск С.',
 	],
     [
@@ -130,7 +130,7 @@ $workexp = [
                    <?php for ($i = 0; $i < count($workexp); $i++) :  ?>
                     <div class="w3-container">
                        <h5 class="w3-opacity"><b><?php echo $workexp[$i]["name"]; ?></b></h5>
-                       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $workexp[$i]["start"]; ?> <span class="w3-tag w3-teal w3-round"><?php echo $workexp[$i]["end"]; ?></h6>
+                       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $workexp[$i]["start"]; ?> <class="w3-tag w3-teal w3-round"><?php echo $workexp[$i]["end"]; ?></h6>
                        <p><?php echo $workexp[$i]["discription"]; ?></p>
                        <hr>
                    <?php endfor; ?>
